@@ -1,12 +1,16 @@
-# Sentiment analysis
+# Анализ тональности
 
-Tools for analyzing the sentiment of movie reviews.
+Инструменты для анализа тональности рецензий на кинофильмы
 
-## Data
-Movie reviews from kinopoisk.ru
+## Данные
+Резенций на кинофильмы с сайта kinopoisk.ru
 
-## Used packages:
+## Использованные библиотеки:
 - pandas
 - numpy
 - pymorphy2
 - scikit- learn
+
+## Результат:
+- обработано более 130000 рецензий
+- реализована наиболее эффективная модель определения тональности рецензий: NBC (stemming + unigrams) - F1-score = 0.76
